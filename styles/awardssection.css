@@ -1,0 +1,91 @@
+.awardssection{
+    display:flex;
+    align-items: flex-start;
+    border: 1px solid yellow;
+    height: 95vh;
+    width: 98vw;
+    padding: 0 5rem;
+    padding-top: 5rem;
+    column-gap: 5rem;
+
+}
+/* .awardsectionSub{
+    display:flex;
+    align-items: flex-start;
+    border: 1px solid yellow;
+    height: fit-content;
+    column-gap: 9rem;
+}
+.bibsect{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid yellow;
+    column-gap: 3rem;
+    margin-top: 2.3rem;
+   
+} */
+/* .plaque{
+    display: flex;
+    align-items: center;
+    border: 1px solid yellow;
+    column-gap: 2.2rem;
+}
+.awardsectionSubleft{
+    padding-top: 10rem;
+}
+.awardssection .whatwebelieve{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.plaque div{
+    height: 5rem;
+    width: 12rem;
+    align-items: flex-start;
+} */
+/* .awardnames{
+    color: var(--DCCA87, #DCCA87);
+font-variant-numeric: lining-nums tabular-nums;
+
+
+font-family: Cormorant Upright;
+font-size: 1.28rem;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: 0.0575rem;
+text-transform: capitalize;
+} */
+/* .loremaward{
+    color: var(--AAAAAA, #AAA);
+
+
+font-family: Open Sans;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 320;
+line-height: 175%; 
+letter-spacing: 0.04rem;
+}
+.awardimage{
+    background:url(./images/mgg-vitchakorn-J5ZivsKiu9c-unsplash\ 2.png) no-repeat;
+
+    background-size: contain;
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid red;
+    display: flex;
+    align-self: end;
+   
+    background-position-x: left;
+
+}
+.awardg{
+    display: flex;
+align-self: end;
+justify-content: start;
+}
+.imgdiv img{
+    height: 5rem;
+    width: 5rem;
+} */

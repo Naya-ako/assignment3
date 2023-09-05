@@ -1,0 +1,150 @@
+.todaysSpecial{
+    width: 98vw;
+    height: 99vh;
+    /* border: 1px solid greenyellow; */
+    margin: 6.5rem 0;
+}
+.menu{
+    color: var(--FFFFFF, #FFF);
+font-family: Cormorant Upright;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 1.86875rem */
+letter-spacing: 0.0575rem;
+text-transform: capitalize;
+margin-bottom: 0.5rem;
+}
+.todayhead{
+    color: var(--DCCA87, #DCCA87);
+text-align: center;
+font-family: 'Cormorant Upright';
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 5.2rem */
+letter-spacing: 0.16rem;
+text-transform: capitalize;
+margin: 0.5rem 0;
+margin-bottom: 2.5rem;
+}
+
+
+.todaysSpecialSub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid greenyellow; */
+    
+   
+
+}
+.menupics{
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    height: 40%;
+}
+
+.menupics h2{
+    color: var(--FFFFFF, #FFF);
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H3 45px Cormorant upright Semi */
+font-family: Cormorant Upright;
+font-size: 1.7rem;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 3.65625rem */
+letter-spacing: 0.1125rem;
+text-transform: capitalize;
+}
+.chapel{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid greenyellow; */
+    margin-bottom: 0.3rem;
+}
+.winenames{
+    color: var(--DCCA87, #DCCA87);
+font-variant-numeric:' lining-nums tabular-nums';
+
+/* H5 23px Cormorant Upright */
+font-family: 'Cormorant Upright';
+font-size: 0.88rem;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 1.86875rem */
+letter-spacing: 0.0575rem;
+text-transform: capitalize;
+width: 9rem;
+}
+.price{
+    color: var(--FFFFFF, #FFF);
+text-align: center;
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H5 23px Cormorant Upright */
+font-family: 'Cormorant Upright';
+font-size: 0.88rem;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 1.86875rem */
+letter-spacing: 0.0575rem;
+text-transform: capitalize;
+margin-left: 1.1rem;
+}
+.au{
+    color: var(--AAAAAA, #AAA);
+text-align: center;
+
+/* Body 16px Regular */
+font-family: Open Sans;
+font-size: 0.62rem;
+font-style: normal;
+font-weight: 500;
+line-height: 175%; /* 1.75rem */
+letter-spacing: 0.04rem;
+}
+.winey{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+.winecategory,
+.cockcategory{
+    padding-top: 2rem;
+    /* border:1px solid red; */
+}
+.menuimg{
+   display:flex;
+   align-items: flex-start;
+   justify-content: center;
+   /* margin-left: 0.3rem;
+   margin-right: 0.3rem; */
+}
+.menuimg img{
+    height: 87%;
+    width: 80%;
+}
+.todaysSpecial button{
+    background: var(--DCCA87, #DCCA87);
+    display: flex;
+padding: 0.3rem 1.5rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: var(--0C0C0C, #0C0C0C);
+
+/* Button */
+font-family: 'Cormorant Upright';
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 175%; /* 1.75rem */
+letter-spacing: 0.04rem;
+}
+.menupics svg{
+    width: 5rem;
+}

@@ -1,0 +1,99 @@
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/Mask\ Group.png) no-repeat ;
+    background-color: grey;
+    background-blend-mode: multiply;
+    width: 98.4vw;
+    height: 100vh;
+    margin-top: 15rem;
+    /* border: 1px solid greenyellow; */
+   
+}
+
+.about,
+.ourHistory{
+    color: var(--DCCA87, #DCCA87);
+text-align: right;
+font-variant-numeric: 'lining-nums tabular-nums';
+
+/* H2 64px Cormorant Upright */
+font-family: 'Cormorant Upright';
+font-size: 2.6rem;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 5.2rem */
+letter-spacing: 0.12rem;
+text-transform: capitalize;
+margin-bottom: 0.5rem;
+}
+
+.rectangle img{
+    width: 3.5rem;
+height: 30rem;
+/* transform: rotate(90deg); */
+flex-shrink: 0;
+margin: 0 4rem;
+}
+.aboutl,.about2{
+            color: var(--AAAAAA, #AAA);
+
+        /* Body 16px Regular */
+        font-family: Open Sans;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 1.75rem *//*100% is 1rem*/
+        letter-spacing: 0.03rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        /* border: 1px solid rgb(137, 142, 128); */
+        height: 4rem;
+        width: 85%;
+}
+
+.rectangleSub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid greenyellow; */
+    width: 80%;
+    height: 60%;
+    background-image: url(./images/G.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18rem;
+   
+}
+.rectangleSub button{
+    color: var(--0C0C0C, #0C0C0C);
+    background: var(--DCCA87, #DCCA87);
+    /* Button */
+    font-family: 'Cormorant Upright';
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 175%; /* 1.75rem */
+    letter-spacing: 0.04rem;
+    border-radius: 0.2rem;
+    /* display: flex; */
+    padding: 0.4rem 1.8rem;
+    /* flex-direction: column;
+    justify-content: center; 
+    align-items: center; */
+
+}
+.rectangleright, .rectangleleft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* border: .0625rem solid greenyellow; */
+    width: 40%;
+    margin-top: 3rem;
+}
+.rectangleleft{
+    align-items: flex-end;
+    text-align: right;
+
+}

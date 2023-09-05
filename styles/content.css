@@ -1,0 +1,123 @@
+
+  body{
+    background-color: black;
+  }
+   .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid greenyellow; */
+    /* background-color: black; */
+   }
+   
+   .content_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 77vh;
+    width: 78vw;
+    /* padding: 0 10%; */
+    /* border: 1px solid greenyellow; */
+    margin: 3rem 4rem;
+    
+ }
+
+
+ 
+ .contents{
+    /* border: 1px solid white; */
+    width: 30%;
+    padding: 0;
+    margin-right: 8rem;
+    margin-top: 5rem;
+   
+    /* border: 1px solid greenyellow; */
+ }
+ 
+ 
+ .vertical{
+    writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  color: #fff;
+ margin-left: 5rem;
+ 
+  /* border: 1px solid greenyellow; */
+}
+.content img{
+    height: 100%;
+    width: 45%;
+   
+}
+.chase{
+    color: var(--FFFFFF, #FFF);
+font-variant-numeric: lining-nums tabular-nums;
+/* H5 23px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 29.9px */
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}
+.key{
+    color: var(--DCCA87, #DCCA87);
+/* H1 90px Cormorant Upright Semi */
+font-family: 'Cormorant Upright';
+font-size: 3.3rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 117px */
+letter-spacing: 0.225rem;
+text-transform: capitalize;
+width: 100%;
+height: 70%;
+/* border: 1px solid white; */
+margin-bottom:1rem;
+}
+.sit{
+    color: var(--AAAAAA, #AAA);
+/* Body 16px Regular */
+font-family: 'Open Sans';
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 400;
+line-height: 175%; /* 28px */
+letter-spacing: 0.0031remx;
+width: 100%;
+}
+.content button{
+    background-color: #DCCA87;
+    margin: 1.25rem 0;
+    width: 35%;
+    height: 10%;
+    padding: 0.4rem 0.3rem;
+    color: #0C0B08;
+    /* Button */
+    font-family: 'Cormorant Upright';
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%; /* 1.75rem */
+    letter-spacing: 0.04rem;
+}
+.p{
+    color: #FFF;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: 'Cormorant Upright';
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 175%; /* 1.75rem */
+letter-spacing: 0.04rem;
+text-transform: capitalize;
+}
+.contents_a{
+display: flex;
+align-items: center;
+}
+
+.p{
+    display: flex;
+    align-items: center;
+}
