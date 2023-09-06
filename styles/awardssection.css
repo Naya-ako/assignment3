@@ -1,4 +1,4 @@
-.awardssection{
+/* .awardssection{
     display:flex;
     align-items: flex-start;
     border: 1px solid yellow;
@@ -9,7 +9,7 @@
     column-gap: 5rem;
 
 }
-/* .awardsectionSub{
+.awardsectionSub{
     display:flex;
     align-items: flex-start;
     border: 1px solid yellow;
@@ -24,8 +24,8 @@
     column-gap: 3rem;
     margin-top: 2.3rem;
    
-} */
-/* .plaque{
+}
+.plaque{
     display: flex;
     align-items: center;
     border: 1px solid yellow;
@@ -42,8 +42,8 @@
     height: 5rem;
     width: 12rem;
     align-items: flex-start;
-} */
-/* .awardnames{
+}
+.awardnames{
     color: var(--DCCA87, #DCCA87);
 font-variant-numeric: lining-nums tabular-nums;
 
@@ -55,8 +55,8 @@ font-weight: 500;
 line-height: 130%;
 letter-spacing: 0.0575rem;
 text-transform: capitalize;
-} */
-/* .loremaward{
+}
+.loremaward{
     color: var(--AAAAAA, #AAA);
 
 
