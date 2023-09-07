@@ -2,22 +2,19 @@
     /* display: flex;
     align-items: start;
     justify-content: start; */
-    height: 60vh;
+    height: 100vh;
     width: 98vw;
     background: url(./images/Mask\ Group.png) repeat ;
     background-color: grey;
     background-blend-mode: multiply;
     padding: 3rem 0;
 }
-.photos{
-    display: flex;
-    column-gap: 0.6rem;
-}
-.photos img{
+
+/* .photos img{
     height: 22rem;
     width: 12rem;
 
-}
+} */
 .photodiv{
     display: flex;
     align-items: start;
@@ -57,3 +54,79 @@ letter-spacing: 0.04rem;
     margin-right: 4rem;
     padding-top: 5rem;
 }
+/* .photos{
+    display: flex;
+    column-gap: 0.6rem;
+}
+.photos img{
+    height: 22rem;
+    width: 12rem;
+
+}
+.photos1{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    width: 10%;
+}
+.pic1{
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+
+}
+.middle{
+    transition: 0.5s ease;
+    position: absolute;
+    
+} */
+.photos{
+    height: 50%;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.photos1 {
+    position: relative;
+    width: 50%;
+    border: 1px solid red;
+  }
+  
+  .pic1{
+    opacity: 1;
+    display: block;
+    width: 98%;
+    height: auto;
+    transition: .5s ease;
+    /* backface-visibility: hidden; */
+
+  }
+  
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    /* -ms-transform: translate(-50%, -50%); */
+    /* text-align: center; */
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid red;
+  }
+  .hoverpic{
+    width: auto;
+    height: auto;
+    border: 1px solid blue;
+    
+  }
+  
+  .photos1:hover .image {
+    opacity: 0;
+  }
+  
+  .photos1:hover .middle {
+    opacity: 1;
+  }

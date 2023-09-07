@@ -1,46 +1,54 @@
-/* .awardssection{
+.awardssection{
     display:flex;
     align-items: flex-start;
-    border: 1px solid yellow;
-    height: 95vh;
+    /* border: 1px solid red; */
+    height: 100vh;
     width: 98vw;
-    padding: 0 5rem;
-    padding-top: 5rem;
-    column-gap: 5rem;
+    /* padding: 0 5rem;
+    padding-top: 5rem; */
+    /* column-gap: 5rem; */
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+       background: url(./images/Mask\ Group.png) repeat ;
+    background-color: grey;
+    background-blend-mode: multiply;
 
 }
 .awardsectionSub{
     display:flex;
-    align-items: flex-start;
-    border: 1px solid yellow;
+    align-items: center;
+    /* border: 1px solid blue; */
     height: fit-content;
-    column-gap: 9rem;
+    /* column-gap: 9rem; */
+    margin-top: 4rem;
+    margin-left: 3rem;
+   
 }
 .bibsect{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid yellow;
-    column-gap: 3rem;
-    margin-top: 2.3rem;
+    /* border: 1px solid yellow; */
+    
+    margin-top: 1rem;
    
 }
 .plaque{
     display: flex;
-    align-items: center;
-    border: 1px solid yellow;
-    column-gap: 2.2rem;
+    align-items: start;
+    border: 0.00001px solid black;
+    width: 13rem;
 }
-.awardsectionSubleft{
-    padding-top: 10rem;
-}
+/* .awardsectionSubleft{
+    padding-top: 5rem;
+} */
 .awardssection .whatwebelieve{
     margin-top: 0.5rem;
     margin-bottom: 2rem;
 }
 .plaque div{
     height: 5rem;
-    width: 12rem;
+    width: 9rem;
     align-items: flex-start;
 }
 .awardnames{
@@ -48,8 +56,8 @@
 font-variant-numeric: lining-nums tabular-nums;
 
 
-font-family: Cormorant Upright;
-font-size: 1.28rem;
+font-family: 'Cormorant Upright';
+font-size: 0.95rem;
 font-style: normal;
 font-weight: 500;
 line-height: 130%;
@@ -61,23 +69,21 @@ text-transform: capitalize;
 
 
 font-family: Open Sans;
-font-size: 0.9rem;
+font-size: 0.6rem;
 font-style: normal;
 font-weight: 320;
-line-height: 175%; 
+line-height: 150%; 
 letter-spacing: 0.04rem;
 }
-.awardimage{
-    background:url(./images/mgg-vitchakorn-J5ZivsKiu9c-unsplash\ 2.png) no-repeat;
-
-    background-size: contain;
-    width: 20rem;
-    height: 20rem;
-    border: 1px solid red;
+.awardimage img{
+  
+    width: 25rem;
+    height: 32rem;
+    /* border: 1px solid red; */
     display: flex;
     align-self: end;
+    margin-left: 4rem;
    
-    background-position-x: left;
 
 }
 .awardg{
@@ -88,4 +94,9 @@ justify-content: start;
 .imgdiv img{
     height: 5rem;
     width: 5rem;
-} */
+}
+.plaque svg{
+    height: 3rem;
+    width: auto;
+    margin-right: 1rem;
+}

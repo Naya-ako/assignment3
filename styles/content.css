@@ -40,6 +40,7 @@
   text-orientation: sideways-right;
   color: #fff;
  margin-left: 5rem;
+ transform: rotate(180deg);
  
   /* border: 1px solid greenyellow; */
 }
