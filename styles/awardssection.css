@@ -1,7 +1,7 @@
 .awardssection{
     display:flex;
     align-items: flex-start;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     height: 100vh;
     width: 98vw;
     /* padding: 0 5rem;
@@ -17,7 +17,7 @@
 .awardsectionSub{
     display:flex;
     align-items: center;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     height: fit-content;
     /* column-gap: 9rem; */
     margin-top: 4rem;
@@ -99,4 +99,30 @@ justify-content: start;
     height: 3rem;
     width: auto;
     margin-right: 1rem;
+}
+@media screen and (max-width:576px){
+    .awardsectionSub{
+        flex-direction: column;
+        margin: 0;
+       
+    }
+    .awardimage{
+        height: 20%;
+        width: 20%;
+    }
+    .awardimage img{
+        height: 20%;
+        width: 20%;
+       
+    }
+    .plaque{
+        width: 10rem;
+    }
+    .awardssection{
+        align-items: center;
+        flex-direction: column;
+    }
+    .awardsectionSub{
+         align-items: center;
+    }
 }

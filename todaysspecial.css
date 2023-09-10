@@ -2,7 +2,7 @@
     width: 98vw;
     height: 99vh;
     /* border: 1px solid greenyellow; */
-    margin: 6.5rem 0;
+    margin:0;
 }
 .menu{
     color: var(--FFFFFF, #FFF);
@@ -14,19 +14,20 @@ line-height: 130%; /* 1.86875rem */
 letter-spacing: 0.0575rem;
 text-transform: capitalize;
 margin-bottom: 0.5rem;
+/* border: 1px solid red; */
 }
 .todayhead{
     color: var(--DCCA87, #DCCA87);
 text-align: center;
 font-family: 'Cormorant Upright';
-font-size: 2.5rem;
+font-size: 2.3rem;
 font-style: normal;
 font-weight: 700;
 line-height: 130%; /* 5.2rem */
 letter-spacing: 0.16rem;
 text-transform: capitalize;
 margin: 0.5rem 0;
-margin-bottom: 2.5rem;
+margin-bottom: 1rem;
 }
 
 
@@ -35,7 +36,7 @@ margin-bottom: 2.5rem;
     flex-direction: column;
     align-items: center;
     /* border: 1px solid greenyellow; */
-    
+    /* border: 1px solid red; */
    
 
 }
@@ -116,6 +117,7 @@ letter-spacing: 0.04rem;
 .cockcategory{
     padding-top: 2rem;
     /* border:1px solid red; */
+    /* border: 1px solid red; */
 }
 .menuimg{
    display:flex;
@@ -147,4 +149,49 @@ letter-spacing: 0.04rem;
 }
 .menupics svg{
     width: 5rem;
+    
+}
+@media screen and (max-width:576px){
+    .menupics svg{
+        width: 5rem;
+        margin-left: 1rem;
+    }
+    .menupics{
+    flex-direction: column;
+   }
+   .winenames{
+    line-height: 100%;
+    width: 8;
+   }
+   .chapel{
+    margin-bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+   }
+   .winey{
+    margin: 0;
+    margin-bottom: 0.4rem;
+   }
+   .menuimg img{
+    height: 35%;
+    width: 25%;
+   }
+   .winecategory,
+.cockcategory{
+    width: 90%;
+    padding-top: 0.5rem;
+    align-self: center;
+}
+   .todayhead{
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    margin-top: 0;
+   }
+   .menupics h2{
+    font-size: 1.3rem;
+  
+   }
+   .todaysSpecial{
+    padding-top: 0.5rem;
+   }
 }

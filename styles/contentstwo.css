@@ -6,7 +6,7 @@
     background: url(./images/Mask\ Group.png) repeat ;
     background-color: grey;
     background-blend-mode: multiply;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     height:200vh;
     width: 98vw;
     margin-top: 10rem;
@@ -16,25 +16,28 @@
     display: flex;
     align-items:start;
     justify-content: center;
-    /* border: 1px solid greenyellow; */
+    border: 1px solid greenyellow;
     width: 75%;
     height: 45%;
     margin-top: 3.5rem ;
     margin-bottom: 7rem;
+   
     
 }
 .contentstwoSub img{
     width: 100%;
     height: 100%;
-    /* border: 1px solid green; */
+    border: 1px solid green;
 }
 .imgdivchef{
     height: 100%;
-    width: 165%;
+    width: 200%;
     margin-right: 4.2rem;
+    border: 1px solid green;
+
 }
 .contentstwordright{
-    /* border: 1px solid wheat; */
+    border: 1px solid wheat;
     height: 92%;
     padding-top: 8%;
 }
@@ -115,4 +118,49 @@ width: 97%;
 .video img{
     width: 98.6vw;
     height: 75vh;
+}
+@media screen and (max-width:576px){
+.contentstwoSub{
+    height:fit-content;
+    width: 100%;
+    margin-top: unset;
+    margin-bottom: 1rem;
+    
+}
+.chefwordlorem{
+    margin: 0;
+}
+.contentstwo{
+    margin-top: 1rem;
+    height: 100vh;
+}
+
+.contentstwordright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+.contentstwordright .whatwebelieve{
+    text-align: center;
+}
+.imgdivchef{
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+}
+.imgdivchef img{
+    height: 70%;
+    width: 100%;
+}
+.video{
+    height: fit-content;
+}
+.contentstwo{
+    height: fit-content;
+}
+.video img{
+    height: 10rem;
+}
 }
