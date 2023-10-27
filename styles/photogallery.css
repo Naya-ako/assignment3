@@ -83,13 +83,13 @@ letter-spacing: 0.04rem;
 .photos{
     height: 50%;
     width: 50%;
-    border: 1px solid red;
+ 
 }
 
 .photos1 {
     position: relative;
     width: 50%;
-    border: 1px solid red;
+   
   }
   
   .pic1{
@@ -114,12 +114,12 @@ letter-spacing: 0.04rem;
     /* text-align: center; */
     object-fit: cover;
     object-position: center;
-    border: 1px solid red;
+  
   }
   .hoverpic{
     width: auto;
     height: auto;
-    border: 1px solid blue;
+ 
     
   }
   
@@ -130,3 +130,13 @@ letter-spacing: 0.04rem;
   .photos1:hover .middle {
     opacity: 1;
   }
+  @media screen and (max-width: 576px){
+   .photogallery{
+    height: 60vh;
+   }
+    .hoverpic{
+        display: none;
+
+    }
+    
+}

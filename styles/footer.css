@@ -150,3 +150,17 @@ text-transform: uppercase;
 .footericons{
     margin-bottom: 3rem;
 }
+@media screen and (max-width: 576px) {
+    footer{
+        flex-direction: column;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .footerSub{
+        flex-direction: column;
+    }
+    .newsletterSub{
+        width: 80vw;
+    }
+}

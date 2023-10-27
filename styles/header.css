@@ -1,9 +1,14 @@
 *{
     margin: 0;
     box-sizing: border-box;
-   
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
 }
+body::-webkit-scrollbar { display: none; }
 .hamburger{
+    display: none;
+}
+#navmobile{
     display: none;
 }
 
