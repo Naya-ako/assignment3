@@ -3,7 +3,16 @@
     box-sizing: border-box;
     /* overflow-x: hidden;
     overflow-y: hidden; */
+    
 }
+button{
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
 body::-webkit-scrollbar { display: none; }
 .hamburger{
     display: none;
